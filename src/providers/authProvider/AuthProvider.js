@@ -25,13 +25,14 @@ export const AuthProvider=({children})=>{
     const register =async(cradentials)=>{
         const newUser=await registerAsync(cradentials)
         console.log("newUser", newUser)
-        if(user&&user.token  ){
+        if(user&&user.token ){
             setuser(true)
-            navigate(HOMEE_PATH)
+           
+         navigate(HOMEE_PATH)
 
         }else{
             setuser(false)
-        }
+        }   
 
     }
     const logOut =()=>{
