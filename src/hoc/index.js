@@ -1,0 +1,1 @@
+export {WrappedComponent} from './withAuthProtection'
