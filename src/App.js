@@ -20,7 +20,8 @@ function App() {
 
 
 
-</Cartprovider></AuthProvider>
+</Cartprovider>
+</AuthProvider>
 
   );
 }

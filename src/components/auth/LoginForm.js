@@ -1,6 +1,6 @@
 
 
-import { useForm } from "react-hook-form"//<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+import { useForm } from "react-hook-form"
 
 import {Button, Form } from '../../atoms'
 
