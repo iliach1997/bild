@@ -1,6 +1,6 @@
 
 import { useState } from "react"
-import { Task } from "../../components/task"
+
 
 
 const ProfileChildComponent=()=>{
@@ -12,11 +12,6 @@ export const Profile=()=>{
     const [username,setusername]=useState('')
     return (
         <div className="row p-2">
-            <div>
-                <Task/>
-                
-            </div>
-            <hr/>
             <h1>👤Profile fage</h1>
               <h1>user name:{username}</h1>
          <div className="row">

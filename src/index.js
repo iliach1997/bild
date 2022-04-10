@@ -5,13 +5,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-// console.log(process.env.NODE_ENV)
-// console.log(process.env.REACT_APP_API_BASE_URL)
 ReactDOM.render(
-  <React.StrictMode> 
-    <BrowserRouter>
-     <App/>
+  <React.StrictMode>
+    <BrowserRouter> <App/>
     </BrowserRouter>
     
   </React.StrictMode>,
