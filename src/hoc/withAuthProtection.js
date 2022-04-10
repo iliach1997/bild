@@ -4,7 +4,7 @@ import { Loader } from '../atoms'
 
 
 export const withAuthProtection=(WrappedComponent)=>{
-const AuthProtection=(props)=>{
+const AuthProtection=()=>{
     const auth= useRequireAuth();
     console.log(auth)
     if(!auth){

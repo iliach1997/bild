@@ -1,0 +1,1 @@
+export {Georgia, Georgia as default}from './Georgia'

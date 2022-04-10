@@ -1,7 +1,6 @@
-//import {Form} from '../../atoms/form'
 import {NavLink} from 'react-router-dom'
 import {LOGIN_PATH,REGISTER_PATH,PROFILE_PATH} from '../../utils'
-import {useAuthProvider} from '../../providers/authProvider'
+import {useAuthProvider} from '../../provaiders/authProvider/AuthProvider'
 import {Button}from'../../atoms/button'
 export const RightNavigation=()=>{
   const {user,logOut}=useAuthProvider();

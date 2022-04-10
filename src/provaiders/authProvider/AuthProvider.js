@@ -1,3 +1,4 @@
+
 import { createContext,useContext } from "react"; 
 import { useLocalStorage } from "../../hooks";
 import { loginAsync,registerAsync } from "../../api/auth.service";
@@ -14,6 +15,7 @@ export const AuthProvider=({children})=>{
         console.log('user',user)
             if(user&&user.token){
             setuser(true)
+            console.log('user',user)
           navigate(HOMEE_PATH)
             }
             else{

@@ -1,1 +1,2 @@
-export const API_BASE_URL='https://reqres.in/api';
+export const REST_BASE_URL=process.env.REACT_APP_API_REST_API
+export const API_BASE_URL=process.env.REACT_APP_API_AUTH_BASE_URL;

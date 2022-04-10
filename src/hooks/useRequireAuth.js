@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useAuthProvider } from '../providers/authProvider'
+import { useAuthProvider } from '../provaiders/authProvider/AuthProvider'
 import {REGISTER_PATH}from '../utils/routePaths'
 export const useRequireAuth =(redirectUerel=REGISTER_PATH)=>{
     const {user}=useAuthProvider()

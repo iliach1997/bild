@@ -1,0 +1,7 @@
+export {RenderCountries} from './RenderCountries'
+export {RenderRegions}from './RenderRegions'
+export {SortPopulationGrowth} from './SortPopulationGrowth'
+export {Total}from './Total'
+export {Area}from './Area'
+export {SortPopulation}from './SortPopulation'
+export {RenderGorgia}from './RenderGorgia'

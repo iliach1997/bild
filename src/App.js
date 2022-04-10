@@ -1,9 +1,8 @@
+import { AuthProvider } from './provaiders/authProvider';
 
 
 
-import { AuthProvider } from './providers/authProvider';
 
-import { Cartprovider } from './providers/cartProvider';
 
 import { Routes } from './Routes'
 
@@ -13,14 +12,18 @@ function App() {
   return (
 
 <AuthProvider>
-<Cartprovider>
+
 
 
 <Routes/>
 
 
 
-</Cartprovider></AuthProvider>
+</AuthProvider>
+
+
+
+
 
   );
 }
